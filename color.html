@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Demo</title>
+</head>
+
+<style type="text/css">
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+	background-color: black;
+}
+
+.text-container h1{
+	font-size: 150px;
+	color: rgba(225,225,225,.1);
+	background-image: url(images2.jpeg);
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation: animate 15s linear infinite;
+}
+
+.text-container1 h1{
+	font-size: 100px;
+	color: rgba(225,225,225,.1);
+	background-image: url(color.jpg);
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation: animate 15s linear infinite;
+}
+
+
+@keyframes animate {
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	100%{
+		background-position: left 800px top 10px;
+
+	}
+}
+.text-container{
+	margin-top: 17%;
+	text-align:center;
+}
+.text-container1{
+	margin-top: 5%;
+	text-align:center;
+}
+
+
+</style>
+
+<body>
+    <div class="text-container">
+        <h1>DANDELI </h1>
+        <h1>HEAVEN IN </h1>
+        <h1>FOREST</h1>
+    </div>
+    <div class="text-container1">
+    	<h1>TRY THIS OR GO TO HELL</h1>
+    </div>
+</body>
+
+</html>
